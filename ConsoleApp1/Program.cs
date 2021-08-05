@@ -7,14 +7,17 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            int dividend = 50, divisor = 8;
-
-            int quotient = dividend / divisor;
-            int remainder = dividend % divisor;
-
-            Console.WriteLine("Dividend : Divisor", dividend, divisor);
-            Console.WriteLine("Quotient = " + quotient);
-            Console.WriteLine("Remainder = " + remainder);
+            int number1, number2, temp;
+            Console.Write("enter the First Number : ");
+            number1 = int.Parse(Console.ReadLine());
+            Console.Write("enter the Second Number : ");
+            number2 = int.Parse(Console.ReadLine());
+            temp = number1;
+            number1 = number2;
+            number2 = temp;
+            Console.WriteLine("After Swapping : ");
+            Console.WriteLine("First Number : " + number1);
+            Console.WriteLine("Second Number : " + number2);
             Console.ReadLine();
         }
     }

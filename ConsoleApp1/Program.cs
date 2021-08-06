@@ -7,18 +7,16 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            int i, n;
-            double s = 0.0;
-
-            Console.WriteLine("Calculate the harmonic series and their sum: ");
-            Console.WriteLine("enter the number of terms : ");
-            n = Convert.ToInt32(Console.ReadLine());
-            for(i=1;i<=n;i++)
+            int i, fact = 1, number;
+            Console.Write("Enter any Number: ");
+            number = int.Parse(Console.ReadLine());
+            for (i = 1; i <= number; i++)
             {
-                Console.WriteLine("1/{0} + ",i);
-                s+=1/(float)i;
+                fact = fact * i;
             }
-            Console.WriteLine("sum of series upto {0} terms : {1}",n,s);
+            Console.Write("Factorial of " + number + " is: " + fact);
         }
     }
 }
+ 
+    

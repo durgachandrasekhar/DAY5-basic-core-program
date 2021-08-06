@@ -7,13 +7,14 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            int year;
-            Console.WriteLine("Check weather the Year is Leap Year or Not");
-            year = Convert.ToInt32(Console.ReadLine());
-            if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) 
-            Console.WriteLine("It is a LeapYear");
-            else
-                Console.WriteLine("Not a LeapYear");
+            double a, b;
+            Console.WriteLine("Enter the Number : ");
+            a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Give the Exponent : ");
+            b = double.Parse(Console.ReadLine());
+            double value1 = Math.Pow(a, b);
+            Console.WriteLine("Result :" + value1);
+            Console.ReadLine();
 
         }
     }

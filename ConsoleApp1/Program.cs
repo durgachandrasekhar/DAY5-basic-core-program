@@ -7,18 +7,29 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            int i;
-            Console.Write("Enter a Number");
-            i = int.Parse(Console.ReadLine());
-            if (i % 2 == 0)
+            char ch;
+            Console.Write("Enter any character: ");
+            ch = Convert.ToChar(Console.ReadLine().ToLower());
+            switch (ch)
             {
-                Console.Write("Entered Number is an Even Number");
-                Console.Read();
-            }
-            else
-            {
-                Console.Write("Entered Number is an Odd Number");
-                Console.Read();
+                case 'a':
+                    Console.WriteLine("The Alphabet is vowel");
+                    break;
+                case 'e':
+                    Console.WriteLine("The Alphabet is vowel");
+                    break;
+                case 'i':
+                    Console.WriteLine("The Alphabet is vowel");
+                    break;
+                case 'o':
+                    Console.WriteLine("The Alphabet is vowel");
+                    break;
+                case 'u':
+                    Console.WriteLine("The Alphabet is vowel");
+                    break;
+                default:
+                    Console.WriteLine("The Alphabet is Consonant");
+                    break;
             }
         }
 

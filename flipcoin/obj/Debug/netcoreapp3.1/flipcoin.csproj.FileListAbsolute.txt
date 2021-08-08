@@ -1,0 +1,13 @@
+E:\New folder\flipcoin\flipcoin\flipcoin\obj\Debug\netcoreapp3.1\flipcoin.csproj.AssemblyReference.cache
+E:\New folder\flipcoin\flipcoin\flipcoin\obj\Debug\netcoreapp3.1\flipcoin.AssemblyInfoInputs.cache
+E:\New folder\flipcoin\flipcoin\flipcoin\obj\Debug\netcoreapp3.1\flipcoin.AssemblyInfo.cs
+E:\New folder\flipcoin\flipcoin\flipcoin\obj\Debug\netcoreapp3.1\flipcoin.csproj.CoreCompileInputs.cache
+E:\New folder\flipcoin\flipcoin\flipcoin\bin\Debug\netcoreapp3.1\flipcoin.exe
+E:\New folder\flipcoin\flipcoin\flipcoin\bin\Debug\netcoreapp3.1\flipcoin.deps.json
+E:\New folder\flipcoin\flipcoin\flipcoin\bin\Debug\netcoreapp3.1\flipcoin.runtimeconfig.json
+E:\New folder\flipcoin\flipcoin\flipcoin\bin\Debug\netcoreapp3.1\flipcoin.runtimeconfig.dev.json
+E:\New folder\flipcoin\flipcoin\flipcoin\bin\Debug\netcoreapp3.1\flipcoin.dll
+E:\New folder\flipcoin\flipcoin\flipcoin\bin\Debug\netcoreapp3.1\flipcoin.pdb
+E:\New folder\flipcoin\flipcoin\flipcoin\obj\Debug\netcoreapp3.1\flipcoin.dll
+E:\New folder\flipcoin\flipcoin\flipcoin\obj\Debug\netcoreapp3.1\flipcoin.pdb
+E:\New folder\flipcoin\flipcoin\flipcoin\obj\Debug\netcoreapp3.1\flipcoin.genruntimeconfig.cache
